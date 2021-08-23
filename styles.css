@@ -1,0 +1,38 @@
+
+
+body
+{
+	margin:0 ;
+	font-family: raleway,sans-serif ;
+	color: #0065FC;
+}
+
+/*header*/
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	
+	
+
+}
+nav img
+{
+	margin-top: 20px;
+	height: 40px
+	
+}
+nav ul
+{
+	display: flex;
+	list-style: none;
+	margin-top: 35px;
+}
+nav li
+{
+	
+	margin: 0 12px 0 20px;
+
+
+}
+/*header*/
