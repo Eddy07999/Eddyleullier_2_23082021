@@ -42,6 +42,10 @@ nav li{
 
 #hebergement{
 	color: #000;
+
+}
+
+}
 	
 }
 #recherche i {
@@ -68,3 +72,14 @@ nav li{
 	margin-top: 0;
 
 }
+
+
+}
+
+
+article{
+	display: flex ;
+	flex-direction: column;
+}
+
+
