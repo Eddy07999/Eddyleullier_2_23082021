@@ -8,11 +8,7 @@ body{
 	
 }
 
-/*header*/
-/*header{
-	display: flex;
-	justify-content: space-between;
-}*/
+
 
 
 nav{
@@ -23,63 +19,146 @@ nav{
 nav img{	
 	margin-left: 30px;
 	margin-top: 20px;
-	height: 40px
+	height: 30px
 	
 }
 nav ul{
 	display: flex;
 	list-style: none;
-	margin-top: 35px;
+	margin-top: 25px;
+	font-size: 12px;
 }
 nav li{
 	
-	margin: 0 12px 0 20px;
+	margin: 0 15px 0 20px;
 
 
 }
 
       /*main*/
 
-#hebergement{
+h1{
+	font-size: 15px;
+	margin-left: 33px;
+	margin-bottom: 0px;
+	color: #000;
+}
+
+.entete p {
+	font-size: 11px;
+	margin-left: 33px;
+	margin-top: 0px;
+	color: #000;
+}
+
+i{
+	margin-left: 40px;
+	margin-right: 20px;
+}
+#formulaire{
+	height: 20px;
+}
+
+.recherche{
+	display: flex;
+}
+label{
+	margin-left: 20px;
+}
+
+
+	
+}
+#filtres{
+	display: flex;
+}
+
+#filtres  {
+	
+
+	margin-top: 20px;
+
+	font-size: 15px;
+	font-weight: bold;
+	display: flex;
+}
+.bouton {
+	color: #0065FC;
+	display: flex;
+	
+	
+}
+.bouton img	{
+	height: 20px;
+	
+}
+
+
+.commentaire{
+	display: flex;
+}
+
+
+
+
+/*hebergement choisi*/
+
+.titre{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+.hebergements-ville-choisi{
+
+	display: flex;
+	
+
+	
+}
+	
+
+
+
+
+
+.choix-hotel{
+	
+	max-width: 75%;
 	color: #000;
 
 }
-
-}
+.description-hotel{
 	
-}
-#recherche i {
-
-	margin-left: 20px;
-}
-
-#filtre p{
-	margin-top: 50px;
+	
 	
 }
 
-#commentaire{
-	display: flex;
-	align-content: center;
+
+.nom-hotel{
+	font-weight: bold;
+
 }
-#commentaire i{
+.prix hotel{
+
+
+}
+
+.description-hotel img{
+	height: 100px;
+	width: 250px;
+	
+}
+
+.etoile{
+	list-style: none;
+	color: #0065FC;
+	
+	
+}
+.etoile img{
+	height: 20px;
 	
 	color: #0065FC;
-	margin-left: 20px;
-	margin-right: 10px;
-}
-#commentaire p{
-	margin-top: 0;
 
 }
-
-
-}
-
-
-article{
-	display: flex ;
-	flex-direction: column;
-}
-
-
