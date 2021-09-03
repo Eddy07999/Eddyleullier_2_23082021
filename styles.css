@@ -101,64 +101,90 @@ label{
 
 
 
-/*hebergement choisi*/
+/*hebergement */
+.hotel{
+	
 
+
+	
+}
+
+
+}
+
+.hebergements-ville-choisi{
+	width: 60%;
+	display: flex;
+	
+	
+	
+}
 .titre{
 	font-size: 20px;
 	font-weight: bold;
 	color: #000;
 }
-
-.hebergements-ville-choisi{
-
+.tous-les-hotels{
 	display: flex;
-	
+}
 
+
+	
+.choix-hotel1{
+	
+	display: flex;
+	flex-direction: column;
+
+}
+.choix-hotel2{
+	display: flex;
+	flex-direction: column;
 	
 }
-	
-
-
-
-
-
-.choix-hotel{
-	
-	max-width: 75%;
-	color: #000;
+.choix-hotel3{
+	display: flex;
+	flex-direction: column;
 
 }
 .description-hotel{
+	display: flex;
+	flex-direction: column;
 	
 	
 	
 }
-
 
 .nom-hotel{
 	font-weight: bold;
+	color: #000;
 
 }
 .prix hotel{
+	color: #000;
 
 
 }
 
 .description-hotel img{
 	height: 100px;
-	width: 250px;
+	width: 200px;
 	
 }
 
-.etoile{
+.etoile {
+	width: 10%;
+	display: flex;
+	justify-content: flex-start;
+	
 	list-style: none;
 	color: #0065FC;
-	
-	
-}
-.etoile img{
 	height: 20px;
 	
-	color: #0065FC;
+}	
+
+
+.les-plus-populaires{
+	
+	width: 40%;
 
 }
