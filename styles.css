@@ -103,6 +103,7 @@ label{
 
 /*hebergement */
 .hotel{
+	display: flex;
 	
 
 
@@ -113,53 +114,58 @@ label{
 }
 
 .hebergements-ville-choisi{
-	width: 60%;
+
+	margin-left: 30px;
+	
 	display: flex;
-	
-	
+	flex-wrap: wrap;
+
 	
 }
-.titre{
+h2{	margin-left: 20px;
 	font-size: 20px;
 	font-weight: bold;
 	color: #000;
 }
 .tous-les-hotels{
+	width: 65%;
+	background-color: grey;
 	display: flex;
+	flex-wrap: wrap;
+	
+	
+	
+
+
 }
 
 
 	
-.choix-hotel1{
+.choix-hotel{
+	padding-right: 10px;
 	
 	display: flex;
-	flex-direction: column;
+	justify-content: row;
 
-}
-.choix-hotel2{
-	display: flex;
-	flex-direction: column;
-	
-}
-.choix-hotel3{
-	display: flex;
-	flex-direction: column;
-
-}
-.description-hotel{
-	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	
-	
-	
+
+
 }
 
-.nom-hotel{
-	font-weight: bold;
+
+
+h3{
+	
+	font-size: 15px;
 	color: #000;
+	
 
 }
-.prix hotel{
+.prix-hotel{
+	
+	font-size: 15px;
 	color: #000;
 
 
@@ -167,24 +173,45 @@ label{
 
 .description-hotel img{
 	height: 100px;
-	width: 200px;
+	width: 190px;
 	
 }
 
 .etoile {
-	width: 10%;
-	display: flex;
-	justify-content: flex-start;
-	
 	list-style: none;
 	color: #0065FC;
-	height: 20px;
+	width: 10px;
+	display: flex;
 	
+
+
 }	
+	
+
+	
+
+	
+	
+.etoile li{
+	
+	display: flex;
+	width:40 %;
+}
+
 
 
 .les-plus-populaires{
-	
-	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 
+}
+.description-hotel-pop{
+	display: flex;
+	flex-direction: column;
+	
+}
+.description-hotel-pop img{
+	height: 100px;
+	width: 100px;
 }
