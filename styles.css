@@ -69,7 +69,7 @@ h1{
 	color: #000;
 }
 
-.recherche i{
+#marker{
 	margin-left: 20px;
 	color: #000;
 	background-color:#F2F2F2;
@@ -110,14 +110,19 @@ form{
 	
 
 }
-label{
+#bouton_recherche{
 	color: white;
 	
 	background-color:#0065FC ;
 	border: 2px solid #0065fc;
-	height: 30px;
-	padding-top: 10px;
+	height: 42px;
+	/*padding-top: 10px;*/
 	border-radius: 0 15px 15px 0;
+}
+
+#bouton_recherche i{
+	
+	display: none;
 }
 
 
@@ -140,6 +145,7 @@ label{
 #filtres p{
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-top: 7px;
 }
 .bouton {
 	width: 150px;
@@ -539,10 +545,27 @@ nav {
 	top: 30px;
 }
 
-.navbar {
-	display: flex;
+#navbar {
+	
 	justify-content: space-between;
 
+	
+}
+#bouton_recherche span{
+	display: none;
+
+
+}
+#bouton_recherche{
+	border-radius: 15px 15px 15px 15px;
+	width: 46px;
+	padding-right: 44px;
+
+}
+#bouton_recherche i{
+	display: inline-grid;
+	width: 40px;
+	font-size: 15px;
 	
 }
 
@@ -640,6 +663,10 @@ footer{
 .les_plus_populaires i{
 
 	margin-top: 10px;
+}
+
+#marker{
+	width: 34px;
 }
 
 
