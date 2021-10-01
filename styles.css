@@ -4,6 +4,7 @@ body{
 	margin:0 ;
 	font-family: raleway,sans-serif ;
 	color: #0065FC;
+	width: 100%;
 
 	
 	
@@ -31,22 +32,49 @@ nav ul{
 	font-size: 12px;
 	flex-wrap: wrap;
 }
-#navbar {
-	display: flex;
+
+#hebergement{
+	border-top: 2px solid #0065FC;
+	margin-bottom: 30px;
 
 }
 
 
 
+#activite a{
+	color: #000;
+}
+#hebergement a{
 
-
+	color: #0065FC;
+	
+}
+#inscrire a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #0065FC;
+}
 
 nav li{
-	
 	margin: 0 15px 0 20px;
 
-
 }
+hr{
+	display: none;
+}
+ #blue_line {
+ 	border: 1px #0065FC solid;
+	align: left;
+	width: 50%;
+	
+}
+#grey_line{
+	border: 1px #F2F2F2 solid;
+	align: right;
+	width: 50%;
+}
+
+
 
       /*main*/
 
@@ -89,7 +117,6 @@ h1{
 .recherche{
 	display: flex;
  	align-items: center;
-	
 	width: 300px;
 	height: 40px;
 	margin-left: 30px;
@@ -98,6 +125,9 @@ h1{
 .style_input{
 	border-color: #F2F2F2;
 	width: 250px;
+	font-weight: bold;
+
+
 
 }
 
@@ -106,22 +136,28 @@ h1{
 form{
 	border-color: none;
 
-
-	
-
 }
-#bouton_recherche{
+#bouton_recherche {
 	color: white;
-	
 	background-color:#0065FC ;
 	border: 2px solid #0065fc;
 	height: 42px;
-	/*padding-top: 10px;*/
 	border-radius: 0 15px 15px 0;
+	
+	
+}
+
+#bouton_recherche a{
+	text-decoration: none;
+	color: white;
+
+}
+#bouton_recherche a:hover{
+	transform: scale(1.2);
+
 }
 
 #bouton_recherche i{
-	
 	display: none;
 }
 
@@ -130,8 +166,6 @@ form{
 
 
 #filtres  {
-	
-
 	margin-top: 25px;
 	margin-left: 20px;
 	font-size: 15px;
@@ -170,7 +204,6 @@ form{
 .light_blue{
 	width: 30px;
 	color: #DEEBFF;
-	
 	position: absolute;
 	font-size: 25px;
 }
@@ -252,17 +285,15 @@ form{
 	flex-wrap: wrap;
 	justify-content: space-evenly ;
 
-	
-
 }
 
 
 
-h2{	
+.hebergements_ville_choisi h2{	
 	position: absolute;
-	padding-right: 270px;
+	margin-right: 364px;
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #000;
 }
@@ -271,7 +302,7 @@ h2{
 
 .hebergements_ville_choisi article{
 
-	height: 170px;
+	height: 210px;
 	width:30%;
 	margin-top: 120px;
 	overflow: hidden;
@@ -303,7 +334,6 @@ h3{
 	font-size: 15px;
 	color: #000;
 	
-
 }
 article p{
 	
@@ -319,10 +349,9 @@ article p{
 .hebergements_ville_choisi article img{
 
 	border-radius: 20px 20px 0px 0px;
-	height: 80px;
-	width: 100%;
-	padding-right: 254px;
-	object-fit: cover;
+	height: 130px;
+	width: 255%;
+
 	
 }
 
@@ -346,15 +375,17 @@ article p{
 .hebergements_ville_choisi p{
 
 	color: #000;
-	position: ;
+	
 	margin-top: 10px;
 	margin-left: 10px;
 	height: 20px;
 
 }
 
-#afficher_plus{
-	margin-right: 500px;
+ #afficher_plus{
+	
+	margin-right:700px;
+
 }
 
 
@@ -370,11 +401,16 @@ article p{
 	flex-wrap: wrap;
 
 }
+.populaires_titre h2{
+	color: #000;
+	font-size: 25px;
+	position: absolute;
+}
 
 .populaires_titre{
 
-	margin-bottom: 50px;
-	display: flex;
+	/*margin-bottom: 50px;*/
+	/*display: flex;*/
 }
 
 .populaires_titre i{
@@ -389,7 +425,7 @@ article p{
 	border: 5px solid white;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 56px;
 	border-radius: 20px;
 	height: 120px;
 	display: flex;
@@ -420,7 +456,7 @@ article p{
 	margin-top: 50px;
 }
 .populaires_titre i{
-	margin-top: 50px;
+	margin-top: 58px;
 
 }
 
@@ -430,9 +466,13 @@ article p{
 
 	margin-top: 200px;
 }
+.choix_activite a: hover{
+	transform: scale(1.5);
+}
  
 h2{
-	margin: 50px;
+	margin: 50px 0 0 20px;
+	color: #000;
 }
 
 .choix_activite{
@@ -454,7 +494,6 @@ h2{
 }
 
 .choix_activite img{
-
 	height: 500px;
 }
 
@@ -491,7 +530,6 @@ footer{
 }
 .container p{
 	margin-top: 10px;
-
 	font-size: 15px;
 }
 
@@ -524,8 +562,8 @@ footer{
 }
 
 #afficher_plus {
-	
-	margin-right: 500px;
+
+	margin-right: 400px;
 }
 }
 
@@ -534,23 +572,50 @@ footer{
 
 
 @media screen and (max-width: 768px){
+body{
+	width: 100%;
+}
 
 nav {
 	flex-direction: column;
 	align-items: baseline;
+
+}
+
+
+#blue_line {
+	
+	display: flex;
+	position: absolute;
+	
+
+	
+}
+#grey_line{
+	display: flex;
+	position: relative;
+	
+}
+
+
+#hebergement{
+	border: none;
+}	
+
+#activite{
+	position: absolute;
+	right: 10%;
+	top: 75px;
 }
 #inscrire{
 	position: absolute;
-	right: 10%;
-	top: 30px;
+	right: 4%;
+	top: 24px;
+}
+nav ul{
+	font-size: 18px;
 }
 
-#navbar {
-	
-	justify-content: space-between;
-
-	
-}
 #bouton_recherche span{
 	display: none;
 
@@ -582,6 +647,10 @@ nav {
 	order: 1;
 	margin-top: 30px;
 }
+.hebergements_ville_choisi h2{
+	margin-right: 310px;
+
+}
 
  .populaire_titre h2{
 	
@@ -603,6 +672,7 @@ nav {
 	margin-right: 30px;
 	margin-top: 100px;
 }
+
 
 
 .les_plus_populaires{
@@ -656,7 +726,10 @@ footer{
 
 
 @media screen and (max-width: 480px){
-	.style_input{
+body{
+	width: 100%;
+}
+.style_input{
 		width: 100%;
 	}
 
@@ -692,29 +765,29 @@ footer{
 
 .hebergements_ville_choisi{
 	flex-direction: column;
-	margin-right: 30px;
+	justify-content: center;
 	background-color: white;
 	width: 100%;
 }
+.hebergements_ville_choisi h2{
+	margin-right: 0px;
+}
 
 .hebergements_ville_choisi article{
-	width: 80% ;
+	width: 70% ;
 	align-items: center;
 	margin-left: 30px;
-	margin-right: 50px;
 	margin-top: 10px;
-}
-.hebergements_ville_choisi img{
-	flex-shrink: 0.5;
 
 }
+
 .les_plus_populaires article {
 	width: 80% ;
 
 }
 .populaires_titre i{
-	margin-top: 50px;
-	margin-right: 300px;
+	margin-top: 58px;
+	
 }
 #activites{
 	padding-right: 0px;
