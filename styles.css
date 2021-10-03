@@ -62,7 +62,7 @@ nav li{
 hr{
 	display: none;
 }
- #blue_line {
+ /*#blue_line {
  	border: 1px #0065FC solid;
 	align: left;
 	width: 50%;
@@ -72,7 +72,7 @@ hr{
 	border: 1px #F2F2F2 solid;
 	align: right;
 	width: 50%;
-}
+}*/
 
 
 
@@ -584,6 +584,9 @@ nav {
 
 
 #blue_line {
+	border: 1px #0065FC solid;
+	
+	width: 50%;
 	
 	display: flex;
 	position: absolute;
@@ -592,8 +595,11 @@ nav {
 	
 }
 #grey_line{
+	border: 1px #F2F2F2 solid;
+	width: 50%;
 	display: flex;
 	position: relative;
+	margin-right: 0px;
 	
 }
 
