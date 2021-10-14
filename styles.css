@@ -407,11 +407,7 @@ article p{
 	position: absolute;
 }
 
-.populaires_titre{
 
-	/*margin-bottom: 50px;*/
-	/*display: flex;*/
-}
 
 .populaires_titre i{
 	margin-left: 85%;
@@ -466,7 +462,7 @@ article p{
 
 	margin-top: 200px;
 }
-.choix_activite a: hover{
+.choix_activite a  hover{
 	transform: scale(1.5);
 }
  
